@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 url = "https://pastebin.com/archive"
 
-resposne = requests.get(url)
+repsonse= requests.get(url)
 
 soup = BeautifulSoup(repsonse.text, 'html.parser')
 
